@@ -9,4 +9,7 @@ class Cars(models.Model):
     brand = models.CharField(max_length=255)
     model = models.CharField(max_length=255)
     rego = models.CharField(max_length=255)
-    
+
+class Smartphon(Cars):
+    pass
+  
